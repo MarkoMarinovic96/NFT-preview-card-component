@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | NFT preview card component</title>
+  </head>
+  <body class="box-border bg-main-bg">
+    <div
+      class="mx-auto mt-[40px] flex w-[22rem] flex-col flex-nowrap rounded-[5%] border-outline-line bg-card-bg "
+    ><div class="hover:last:block relative">
+      <img
+        class="w-fit rounded-[10%] border-solid p-6"
+        src="./images/image-equilibrium.jpg"
+        alt=""
+      />
+      <img class="w-fit rounded-[10%] border-solid p-6 absolute top-[37%] left-[37%] hidden" src="./images/icon-view.svg" alt="">
+    </div>
+      <div class="px-6">
+        <h1 class="pb-3 text-2xl font-semibold text-white hover:text-cyan">
+          Equilibrium #3429
+        </h1>
+        <p class="pb-3 text-soft-blue font-normal">
+          Our Equilibrium collection promotes balance and calm
+        </p>
+        <div class="flex flex-row flex-nowrap justify-between pb-3">
+          <span class=""
+            ><img class="inline-block" src="./images/icon-ethereum.svg" /> 0.041
+            ETH</span
+          ><span class="font-light text-soft-blue"
+            ><img class="inline-block" src="./images/icon-clock.svg" />3 days
+            left</span
+          >
+        </div>
+        <hr style="color: white" />
+        <div class="py-3 text-left">
+          <img
+            class="inline-block w-7 rounded-full border-solid border-white"
+            src="./images/image-avatar.png"
+          />
+          <p class="inline-block text-soft-blue font-light ml-2">Creation of </p> <p class="inline-block text-white hover:text-cyan"> Jules Wyvern</p>
+        </>
+      </div>
+    </div>
+  </body>
+</html>
